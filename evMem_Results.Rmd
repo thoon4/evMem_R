@@ -1,0 +1,1285 @@
+---
+title: 'Stability of background context promotes the binding of multiple event memory'
+author: "Korea Brain Research Institute, Cognitive Science Research Group, Deep Memory Lab"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    code_folding: hide
+    highlight: tango
+    number_sections: true
+    theme: cosmo
+    toc: true
+    toc_depth: 5
+    toc_float:
+      collapse: false
+      smooth_scroll: false
+  pdf_document:
+    toc: true
+    toc_depth: 5
+subtitle: Event Memory, Context Stability, Prior Knowledge - 0829
+mainfont: Noto Sans CJK KR
+editor_options: 
+  chunk_output_type: console
+---
+
+<br><br>
+
+# Abstract
+
+<br>
+
+우리의 일상 경험은 연속적인 정보의 흐름으로 구성되어 있다. 이러한 정보의 흐름은 경험 당시의 시공간, 인지 및 정서적 맥락과 연합되어 개별적인 단위로 나누어지고 각각의 고유한 일화 기억으로 자리 잡는다. 최근의 일화 기억 연구들은 기억 체계가 정보의 흐름을 어떻게 단위화하여 일화 기억을 형성하는지에 초점을 맞추어 왔다. 우리는 어떻게 연속적인 정보를 개별적인 사건으로 지각하는가? 사건 지각에 대한 이론들은 우리가 사건의 경계(event boundary)를 접하게 될 때, 이 경계를 기준으로 경험을 분할하여 지각한다고 제안한다 (Radvansky, 2012; Zacks, Speer, Swallow, Braver, & Reynolds, 2007). 여기서 사건 경계는 경험 상에 발생하는 공간적 변화, 지각적 변화, 인지적 변화(정서, 목표 상태 등)를 포함한다. 이러한 경계를 접한 기억 체계는 이 경험을 고유한 사건들로 분할하고, 사건들 안의 정보를 통합하여 사건 내의 시간적 순서, 하위 사건들의 내용, 하위 사건들 간의 연합 등에 대한 일화 기억을 형성한다 (Clewett, DuBrow, & Davachi, 2019). 이렇게 분할된 사건 기억이 형성되면, 사건 간/내의 시간적 순서에 대한 기억, 사건 간/내의 시간 흐름의 지각, 전체 사건의 지속 시간에 대한 추정, 사건 배경과 세부 항목 간의 연합 기억, 세부 항목 자체에 대한 재인 기억 등 일화 기억의 다양한 측면에 영향을 준다(Boundary Effect). 특히, 통합된 Event Memory 내에서는 사건 간의 Temporal Order Memory가 온전한 반면, 분리된 Event Memory 간에는 Temporal Order Memory 가 손상되는 것이 두드러지게 관찰되어왔다. 
+
+<br>
+
+![](/Users/taehoonkim/Desktop/Workspace/git_project/evMem_R_raw/image/background.png)
+
+<br>
+
+한편, 사건 기억의 형성에는 공간적, 지각적, 인지적 맥락의 변화와 안정성만이 영향을 주는 것은 아니다. 일상의 경험에는 수많은 맥락 변화가 있으나, 이 모든 것이 개별적인 일화로 지각되지는 않는다. 이는 다양한 맥락 변화가 사전 경험에 의해 예측되기 때문일 수 있다. 대부분의 일상 경험은 유사한 장소에서 유사한 순서로 진행된다. 이러한 유사성에 근거하여, 우리의 뇌는 새로운 사건이 어떻게 펼쳐질지에 대한 예측을 형성할 수 있다. 그리고 이 예측은 이어지는 정보들을 부호화하는 과정에 활용되어 일화 기억 형성에 영향을 미칠 수 있을 것이다. 구체적으로, 새롭게 경험하는 정보 흐름이 예측과 일치하면 흐름 중에 맥락 변화가 발생하더라도 하나의 사건으로 통합될 수 있다. 반면, 예측과 어긋나면 뚜렷한 맥락 변화가 없더라도 정보들이 구분되는 일화로 기억될 가능성이 있다. 
+
+<br>
+
+  이에 본 연구는 다양한 맥락 변화로 구성된 경험에서의 일화 기억 형성에 사전 경험에 의한 예측이 어떤 영향을 미치는지 살펴보고자 하였다. 총 48명의 참가자가 실험에 참여하였다. 실험은 참가자 간 요인인 공고화 집단 조건과 참가자 내 요인인 사전 경험과의 일치 여부가 조합된 혼합 요인 설계로 구성되었다. 실험 과제는 맥락 학습 및 검사, 사건 학습, 순서 검사의 3개 과제로 구성되었다. 맥락 학습 및 검사는 이어질 학습 과제의 맥락 변화에 대한 예측을 형성하기 위한 과제로, 특정 배경을 연속적으로 반복 제시 및 검사하여 참가자들이 배경 맥락 변화에서의 예측을 형성할 수 있도록 유도하였다. 이어서, 참가자들은 공고화 집단과 즉시 집단으로 구분되어 할당되었다. 공고화 집단에서는 공고화 유도를 위해 24시간 뒤 사건 학습 과제와 순서 검사 과제를 수행하였다. 즉시 집단의 참가자들은 맥락 학습 및 검사 후 즉시 사건 학습 및 순서 검사 과제를 수행하였다. 사건 학습 과제에서는 앞서 노출되었던 배경 맥락들이 천천히 변화하며 맥락 하에서 연속적으로 제시되는 여러 가지 물체들을 학습하였다. 이때, 참가자 내 요인으로 사전 맥락 학습과의 일치/불일치 여부가 조작되었다. 일치 조건에서는 배경 맥락이 사전에 경험한 순서대로 제시된 반면, 불일치 조건에서는 사전 경험과 일치하지 않는 순서로 제시되었다. 이어서 순서 검사 과제에서는 앞서 학습한 물체가 두개씩 제시되었다. 참가자들의 과제는 두 물체 중 어떤 물체가 시간적으로 우선하여 나왔는지 판단하는 것이었다.  
+  
+<br>
+
+![](/Users/taehoonkim/Desktop/Workspace/git_project/evMem_R_raw/image/procedure.png)
+
+  
+<br>
+  
+  실험 결과, 두 집단 모두에서 사건 내(Within)의 Temporal Order Memory가 Event 간(Across) 보다 더 우수한 경계 효과(Boundary Effect)가 재현되었다. 가설과 일치하게, 이러한 경계 효과(Within – Across) 는 일치(Paired) 조건에서 불일치(Non-paired) 조건보다 감소하였다. 구체적으로, 일치(Paired) 조건에서 경계 효과(Boundary Effect)의 감소는 사건 간(Across) 의  Temporal Order Memory 수행 증가에 의해 이루어졌다. 그러나 공고화 여부의 효과는 나타나지 않아 두 집단 모두에서 동일한 패턴이 관찰되었다. 
+  
+<br>
+
+****
+
+<br>
+
+# Results
+
+<br>
+
+```{r, echo=FALSE}
+rm(list=ls())
+#getwd()
+setwd("/Users/taehoonkim/Desktop/Workspace/git_project/evMem_R_raw/")
+options(scipen=4)
+```
+
+```{css, echo=FALSE}
+pre code, pre, code {
+  white-space: pre !important;
+  overflow-x: scroll !important;
+  word-break: keep-all !important;
+  word-wrap: initial !important;
+}
+```
+
+
+```{r setup, message=FALSE}
+set.seed(12345) # for reproducibility
+options(knitr.kable.NA = '')
+
+# install // load packages 
+# Some packages need to be loaded. 
+# We use `pacman` as a package manager, which takes care of the other packages. 
+if (!require("distill", quietly = TRUE)) install.packages("distill")
+if (!require("devtools", quietly = TRUE)) install.packages("devtools")
+if (!require("papaja", quietly = TRUE)) devtools::install_github("crsh/papaja")
+if (!require("patchwork", quietly = TRUE)) devtools::install_github("thomasp85/patchwork")
+if (!require("klippy", quietly = TRUE)) devtools::install_github("RLesur/klippy")
+if (!require("pacman", quietly = TRUE)) install.packages("pacman")
+if (!require("Rmisc", quietly = TRUE)) install.packages("Rmisc")
+if (!require("ggbeeswarm", quietly = TRUE)) install.packages("ggbeeswarm") # Never load it directly.
+pacman::p_load(tidyverse, papaja, knitr, dplyr, car, psych, afex, lme4, lmerTest, 
+               emmeans, ggplot2, ggpubr, lattice, latticeExtra, parallel, effects, psycho, caret,
+               effectsize, rstatix)
+library("patchwork"); library("klippy")
+klippy::klippy()
+```
+  
+<br>
+
+## Phase 1 - Association Memory Test
+
+<br>
+
+실험 1 (Immediate) & 실험 2 (Consolidated), Phase 1 Association Memory Test의 수행 변화를 분석하였다. 
+
+<br>
+
+```{r, collapse=TRUE}
+t1 <- read.csv("data/evMEM_p1_all.csv", header = T)
+glimpse(t1, width = 70)
+
+t1$SN = factor(t1$SN)
+t1$exp = factor(t1$exp, levels=c(1,2), labels=c("imm","cons"))
+t1$Block = factor(t1$Block)
+t1$mBlock = factor(t1$mBlock)
+t1$tType = factor(t1$tType, levels=c(1,2), labels=c("paired","unpaired")) 
+t1$Sce1_Idx = factor(t1$Sce1_Idx)
+t1$Sce2_Idx = factor(t1$Sce2_Idx)
+t1$Sce3_Idx = factor(t1$Sce3_Idx)
+# t1$RT <- t1$RT;
+t1$Corr <- as.numeric(t1$Corr==1)
+```
+
+<br>
+
+참가자의 반응시간을 분석하였다. 분석에는 올바르게 반응한 시행만 포함되었다. 자동적 반응(<200ms)과 과도하게 늦은 반응(>10000ms)을 제거하였고, 평균으로부터 +-3SD를 넘는 시행을 가외치로 판단하여 제거하였다. 아래에 조건과 블록 반복에 따른 반응시간 변화를 요약하였다.
+
+<br>
+
+```{r, collapse=TRUE}
+ct1 <- t1 %>% filter(Corr == 1) # filter(Corr == 1) # remove incorrect trial
+100-100*(nrow(ct1)/nrow(t1))
+
+# trimming 3sd outlier trials
+tt1 <- ct1 %>% filter(RT > .200 & RT < 10.000) %>%
+  group_by(SN) %>% # grouping by participants
+  nest() %>%
+  mutate(lbound = map(data, ~mean(.$RT)-3*sd(.$RT)),
+         ubound = map(data, ~mean(.$RT)+3*sd(.$RT))) %>% # make new data (3sd cut)
+  unnest(c(lbound, ubound))%>% 
+  unnest(data) %>% 
+  mutate(Outlier = (RT < lbound)|(RT > ubound)) %>% # set outlier
+  filter(Outlier == FALSE) %>% # filtering outlier
+  ungroup() %>% 
+  dplyr::select(SN, exp, Block, mBlock, tType, Sce1_Idx, Sce2_Idx, Sce3_Idx, RT, Corr) # select variables to analyze
+
+# outlier trial ratio
+100-100*(nrow(tt1)/nrow(ct1))
+
+# RTs were trimmed
+# when 1) faster than 200ms 2) slower than 10 secs 3) 3SD away from the participants mean
+
+# mean number of trials for each conditions
+tt1 %>% group_by(SN, exp, tType) %>% 
+  summarise(NumTrial = length(RT)) %>%
+  ungroup() %>%
+  group_by(exp, tType) %>%
+  summarise(Mean = mean(NumTrial), 
+            Median = median(NumTrial), 
+            Min = min(NumTrial), 
+            Max = max(NumTrial)) %>% 
+  ungroup %>%
+  kable(digits=2)
+```
+
+<br>
+
+```{r, collapse=TRUE}
+t1rtL <- tt1 %>% group_by(SN, exp, Block, tType) %>%
+  summarise(RT = mean(RT)) %>%
+  ungroup()
+# t1rtL %>% kable(digits=2)
+
+# subject-level, wide format (SN/Btw/Block)
+t1rtW <- t1rtL %>% spread(key=Block, value = RT)
+# t1rtW %>% kable(digits=2)
+
+# summary table: grand mean (eyerep/locrep)
+t1rtG <- t1rtL %>% group_by(exp, Block, tType) %>%
+  summarise(RT.m = mean(RT), RT.sd = sd(RT)) %>%
+  ungroup()
+t1rtG$RT.se <- Rmisc::summarySEwithin(data = t1rtL, measurevar = "RT", 
+                                      idvar = "SN", betweenvars = "exp", withinvars = c("Block", "tType"))$se
+t1rtG$RT.ci <- Rmisc::summarySEwithin(data = t1rtL, measurevar = "RT", 
+                                      idvar = "SN", betweenvars = "exp",withinvars = c("Block", "tType"))$ci
+t1rtG <- t1rtG %>% 
+  mutate(lower.ci = RT.m-RT.ci,
+         upper.ci = RT.m+RT.ci,
+         lower.se = RT.m-RT.se,
+         upper.se = RT.m+RT.se,)
+t1rtG %>% 
+  dplyr::select(exp, tType, Block, RT.m) %>% 
+  spread(key = Block, value = RT.m) %>% 
+  kable(digits=2)
+```
+
+<br>
+
+참가자들의 반응 정확도를 분석하였다.
+
+<br>
+
+```{r, collapse=TRUE}
+t1acc.sn <- t1 %>% filter(Block==4) %>%  group_by(SN, exp) %>%
+  dplyr::summarise(Acc = mean(Corr)*100) %>%
+  ungroup()
+
+ggplot() + 
+  geom_bar(data=t1acc.sn, aes(x = SN, y = Acc, fill=exp), stat="identity") + 
+  # ggtitle("참가자별 평균 반응시간") +
+  xlab("Subjects") + ylab("Accuracy") + theme_bw() +
+  coord_cartesian(ylim = c(80,100), clip = "on") +
+  scale_fill_manual(values = c("#2C57AA", "#F17402"), # c("#F17402", "#2C57AA"), c("#feb24c", "#91bfdb")
+                    labels = c("Immediate","Consolidated")) +  
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # legend.position = c(0.65, 0.85),
+        legend.position = 'top',
+        legend.title = element_blank(),
+        # aspect.ratio = 0.6,
+        legend.background = element_blank(),
+        plot.margin = margin(1, 0.3, 0.3, 0.5, "cm"),
+        legend.key = element_blank())
+  
+# subject-level, long format (SN/Btw/Block)
+t1accL <- t1 %>% group_by(SN, exp, Block, tType) %>%
+  dplyr::summarise(Acc = mean(Corr)*100) %>%
+  ungroup()
+# t1accL %>% kable(digits=2)
+
+# subject-level, wide format (SN/Btw/Block)
+t1accW1 <- t1accL %>% spread(key=Block, value = Acc)
+# t1accW1 %>% kable(digits=2)
+
+# summary table: grand mean (eyerep/locrep)
+t1accG <- t1accL %>% group_by(exp, Block, tType) %>%
+  summarise(Acc.m = mean(Acc), Acc.sd = sd(Acc)) %>%
+  ungroup()
+t1accG$Acc.se <- Rmisc::summarySEwithin(data = t1accL, measurevar = "Acc", 
+                                        idvar = "SN", betweenvars="exp",withinvars = c("Block", "tType"))$se
+t1accG$Acc.ci <- Rmisc::summarySEwithin(data = t1accL, measurevar = "Acc", 
+                                        idvar = "SN", betweenvars="exp",withinvars = c("Block", "tType"))$ci
+t1accG <- t1accG %>% 
+  mutate(lower.ci = Acc.m-Acc.ci,
+         upper.ci = Acc.m+Acc.ci,
+         lower.se = Acc.m-Acc.se,
+         upper.se = Acc.m+Acc.se)
+
+t1accG %>% 
+  dplyr::select(exp, tType, Block, Acc.m) %>% 
+  spread(key = Block, value = Acc.m) %>% 
+  kable(digits=2)
+
+```
+
+
+```{r, fig.width= 14, fig.height=6}
+# values = c("#F17402", "#2C57AA") 
+# values = c("darkred", "darkblue")
+p1.L.rt.g <- t1rtG
+p1.L.rt.g.plot1 <- ggplot(data=p1.L.rt.g , 
+                              aes(x=Block, y=RT.m, ymin=RT.m-RT.ci, ymax=RT.m+RT.ci, color=tType, shape=tType)) +
+  geom_point(size = 5, position = position_dodge(.3)) +
+  geom_errorbar(width = .2, position = position_dodge(.3)) +
+  geom_line(aes(group = tType), position = position_dodge(.3), size=1) + 
+  facet_grid(.~exp, scales="free_x", space = "free",
+             labeller = labeller(exp = c("imm" = "Immediate","cons" = "Consolidated"))) +
+  scale_color_manual(values = c("#ED7D31", "#70AD47")) + # c("red", "black")) +
+  # scale_shape_manual(values = c("red", "black"), labels = c("Experimental", "Control")) +
+  coord_cartesian(ylim = c(0.500,2.000), clip = "on") +
+  # scale_y_continuous(breaks = seq(0,80)) +
+  scale_x_discrete(labels = c("1", "2", "3", "4")) +
+  labs(x = "Block", y = "Response Time (s)") +
+  theme_bw(base_size = 18) +
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # legend.position = c(0.65, 0.85),
+        legend.position = 'top',
+        legend.title = element_blank(),
+        # aspect.ratio = 0.6,
+        legend.background = element_blank(),
+        plot.margin = margin(1, 0.3, 0.3, 0.5, "cm"),
+        legend.key = element_blank())
+p1.L.rt.g.plot1
+
+p1.L.acc.g <- t1accG
+p1.L.acc.g.plot1 <- ggplot(data=p1.L.acc.g , 
+                          aes(x=Block, y=Acc.m, ymin=Acc.m-Acc.ci, ymax=Acc.m+Acc.ci, color=tType, shape=tType)) +
+  geom_point(size = 5, position = position_dodge(.3)) +
+  geom_errorbar(width = .2, position = position_dodge(.3)) +
+  geom_line(aes(group = tType), position = position_dodge(.3), size=1) + 
+  facet_grid(.~exp, scales="free_x", space = "free",
+             labeller = labeller(exp = c("imm" = "Immediate","cons" = "Consolidated"))) +
+  scale_color_manual(values = c("#ED7D31", "#70AD47")) + # c("red", "black")) +
+  # scale_shape_manual(values = c("red", "black"), labels = c("Experimental", "Control")) +
+  coord_cartesian(ylim = c(80,105), clip = "on") +
+  # scale_y_continuous(breaks = seq(0,80)) +
+  scale_x_discrete(labels = c("1", "2", "3", "4")) +
+  labs(x = "Block", y = "Accuracy (%)") +
+  theme_bw(base_size = 18) +
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # legend.position = c(0.65, 0.85),
+        legend.position = 'top',
+        legend.title = element_blank(),
+        # aspect.ratio = 0.6,
+        legend.background = element_blank(),
+        plot.margin = margin(1, 0.3, 0.3, 0.5, "cm"),
+        legend.key = element_blank())
+p1.L.acc.g.plot1
+
+```
+
+<br>
+
+```{r, fig.width= 14, fig.height=6}
+p1.L.rt.g <- t1rtG %>% filter(Block == 4)
+p1.L.rt.l <- t1rtL %>% filter(Block == 4)
+p1.L.rt.w <- p1.L.rt.l %>% select(SN, exp, tType, RT) %>% spread(key =tType, value=RT)
+
+p1.L.rt.g.plot1 <- ggplot() +
+  geom_hline(yintercept=0, linetype='dashed', color='gray60', alpha =1, size=1) +
+  
+  geom_violin(data=p1.L.rt.l, aes(x=exp, y=RT, fill=tType), width = 0.7, trim=TRUE, 
+            position = position_dodge(0.80), alpha = 0.15) +
+  geom_dotplot(data=p1.L.rt.l, aes(x=exp, y=RT, fill=tType),
+               binaxis = "y", stackdir = "center", stackratio = 1.3,
+               color = "black", alpha = 0.5, #position = "nudge",
+               position=position_dodge(0.8),
+               inherit.aes = TRUE, binwidth = 0.035) +
+  
+  # geom_point(data=p1.L.rt.l, aes(x=exp, y=RT, fill=tType), size = 1, 
+  #            position = position_dodge(.8),  color="gray80", show.legend = F) +
+  # geom_segment(data=filter(p1.L.rt.w, exp == "imm"), inherit.aes = FALSE,
+  #              aes(x=0.8, y=filter(p1.L.rt.w, exp == "imm")$paired,
+  #                  xend=1.2, yend=filter(p1.L.rt.w, exp == "imm")$unpaired),
+  #              color="gray90", alpha = .7) +
+  # geom_segment(data=filter(p1.L.rt.w, exp == "cons"), inherit.aes = FALSE,
+  #              aes(x=1.8, y=filter(p1.L.rt.w, exp == "cons")$paired,
+  #                  xend=2.2, yend=filter(p1.L.rt.w, exp == "cons")$unpaired),
+  #              color="gray90", alpha = .7) +
+  geom_pointrange(data=p1.L.rt.g, aes(x = exp, y=RT.m, ymin = RT.m-RT.ci, ymax = RT.m+RT.ci, color = tType),
+                  position = position_dodge(0.80), size = 1.3, show.legend = TRUE) +
+  scale_fill_manual(values = c("#ED7D31", "#70AD47")) +
+  scale_color_manual(values = c("#ED7D31", "#70AD47")) +
+  
+  # scale_shape_manual(values = c("red", "black"), labels = c("Experimental", "Control")) +
+  coord_cartesian(ylim = c(0.500,2.000), clip = "on") +
+  # scale_y_continuous(breaks = seq(0,80)) +
+  scale_x_discrete(labels = c("Immediate", "Consolidated")) +
+  labs(x = "Condition", y = "Response Time (ms)") +
+  theme_bw(base_size = 18) +
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # legend.position = c(0.65, 0.85),
+        legend.position = "top",
+        legend.title = element_blank(),
+        # aspect.ratio = 0.6,
+        legend.background = element_blank(),
+        plot.margin = margin(1, 0.3, 0.3, 0.5, "cm"),
+        legend.key = element_blank())
+p1.L.rt.g.plot1
+
+p1.L.acc.g <- t1accG %>% filter(Block == 4)
+p1.L.acc.l <- t1accL %>% filter(Block == 4)
+p1.L.acc.w <- p1.L.acc.l %>% select(SN, exp, tType, Acc) %>% spread(key =tType, value=Acc)
+
+p1.L.acc.g.plot1 <- ggplot() +
+  # geom_hline(yintercept=0, linetype='dashed', color='gray60', alpha =1, size=1) +
+  geom_violin(data=p1.L.acc.l, aes(x=exp, y=Acc, fill=tType), width = 0.7, trim=TRUE, 
+              position = position_dodge(0.80), alpha = 0.15) +
+  geom_dotplot(data=p1.L.acc.l, aes(x=exp, y=Acc, fill=tType),
+               binaxis = "y", stackdir = "center", stackratio = 1.3,
+               color = "black", alpha = 0.5, #position = "nudge",
+               position=position_dodge(0.8),
+               inherit.aes = TRUE, binwidth = 0.1) +
+  # geom_point(data=p1.L.acc.l, aes(x=exp, y=Acc, fill=tType), size = 1, 
+  #            position = position_dodge(.8),  color="gray80", show.legend = F) +
+  # geom_segment(data=filter(p1.L.acc.w, exp == "imm"), inherit.aes = FALSE,
+  #              aes(x=0.8, y=filter(p1.L.acc.w, exp == "imm")$paired,
+  #                  xend=1.2, yend=filter(p1.L.acc.w, exp == "imm")$unpaired),
+  #              color="gray90", alpha = .7) +
+  # geom_segment(data=filter(p1.L.acc.w, exp == "cons"), inherit.aes = FALSE,
+  #              aes(x=1.8, y=filter(p1.L.acc.w, exp == "cons")$paired,
+  #                  xend=2.2, yend=filter(p1.L.acc.w, exp == "cons")$unpaired),
+  #              color="gray90", alpha = .7) +
+  geom_pointrange(data=p1.L.acc.g, aes(x = exp, y=Acc.m, ymin = Acc.m-Acc.ci, ymax = Acc.m+Acc.ci, color = tType),
+                  position = position_dodge(0.80), size = 1.3, show.legend = TRUE) +
+  scale_color_manual(values = c("#ED7D31", "#70AD47")) +
+  scale_fill_manual(values = c("#ED7D31", "#70AD47")) +
+  
+  # scale_shape_manual(values = c("red", "black"), labels = c("Experimental", "Control")) +
+  coord_cartesian(ylim = c(80,105), clip = "on") +
+  # scale_y_continuous(breaks = seq(0,80)) +
+  scale_x_discrete(labels = c("Immediate", "Consolidated")) +
+  labs(x = "Condition", y = "Accuracy (%)") +
+  theme_bw(base_size = 18) +
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # legend.position = c(0.65, 0.85),
+        legend.position = "top",
+        legend.title = element_blank(),
+        # aspect.ratio = 0.6,
+        legend.background = element_blank(),
+        plot.margin = margin(1, 0.3, 0.3, 0.5, "cm"),
+        legend.key = element_blank())
+
+p1.L.acc.g.plot1
+
+# fig1_2.behav <- ggarrange(p1.L.rt.g.plot1, p1.L.acc.g.plot1, nrow = 2)
+# fig1_2.behav
+
+```
+
+<br>
+
+```{r, fig.width= 14, fig.height=6}
+p1.L.rt.g <- t1rtG %>% filter(Block == 4)
+p1.L.rt.l <- t1rtL %>% filter(Block == 4)
+p1.L.rt.w <- p1.L.rt.l %>% select(SN, exp, tType, RT) %>% spread(key =exp, value=RT)
+
+p1.L.rt.g.plot3 <- ggplot() +
+  # geom_hline(yintercept=0, linetype='dashed', color='gray60', alpha =1, size=1) +
+  geom_violin(data= p1.L.rt.l, aes(x = tType, y=RT, fill = exp), width = 0.7, trim=TRUE, 
+              position = position_dodge(0.80), alpha = 0.15) + 
+  # ggbeeswarm::geom_quasirandom(data= p1.L.rt.l, aes(x = tType, y=RT, color = exp, fill = exp), 
+  #                              size = 3, alpha = 0.2, width = 0.2, #color = "blue", 
+  #                              position = "dodge") +
+  geom_dotplot(data= p1.L.rt.l, aes(x = tType, y=RT, fill = exp),
+               binaxis = "y", stackdir = "center", stackratio = 1.3,
+               color = "black", alpha = 0.5, position = position_dodge(0.80),
+               inherit.aes = TRUE, binwidth = 0.03, show.legend = FALSE) +
+  geom_pointrange(data=p1.L.rt.g, aes(x = tType, y=RT.m, ymin = RT.m-RT.ci, ymax = RT.m+RT.ci, color = exp),
+                  position = position_dodge(0.80), size = 1.3, show.legend = T, alpha = 1) +
+  scale_color_manual(values = c("#2C57AA","#F17402"), 
+                    labels = c("Immediate", "Consolidated")) +
+  scale_fill_manual(values = c("#2C57AA","#F17402"),
+                    labels = c("Immediate", "Consolidated")) +
+  
+  # scale_shape_manual(values = c("red", "black"), labels = c("Experimental", "Control")) +
+  coord_cartesian(ylim = c(0.500,2.000), clip = "on") +
+  # scale_y_continuous(breaks = seq(0,80)) +
+  scale_x_discrete(labels = c("Paired", "Unpaired")) +
+  labs(x = "Condition", y = "Response Time (ms)") +
+  theme_bw(base_size = 18) +
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # legend.position = c(0.65, 0.85),
+        legend.position = "top",
+        legend.title = element_blank(),
+        # aspect.ratio = 0.6,
+        legend.background = element_blank(),
+        plot.margin = margin(1, 0.3, 0.3, 0.5, "cm"),
+        legend.key = element_blank())
+p1.L.rt.g.plot3
+
+p1.L.acc.g <- t1accG %>% filter(Block == 4)
+p1.L.acc.l <- t1accL %>% filter(Block == 4)
+p1.L.acc.w <- p1.L.acc.l %>% select(SN, exp, tType, Acc) %>% spread(key =exp, value=Acc)
+
+p1.L.acc.g.plot3 <- ggplot() +
+  # geom_hline(yintercept=0, linetype='dashed', color='gray60', alpha =1, size=1) +
+  geom_violin(data= p1.L.acc.l, aes(x = tType, y=Acc, fill = exp), width = 0.7, trim=TRUE, 
+              position = position_dodge(0.80), alpha = 0.15) + 
+  # ggbeeswarm::geom_quasirandom(data= p1.L.acc.l, aes(x = tType, y=Acc, color = exp, fill = exp), 
+  #                              size = 3, alpha = 0.2, width = 0.2, #color = "blue", 
+  #                              position = "dodge") +
+  geom_dotplot(data= p1.L.acc.l, aes(x = tType, y=Acc, fill = exp),
+               binaxis = "y", stackdir = "center", stackratio = 1.3,
+               color = "black", alpha = 0.5, position = position_dodge(0.80),
+               inherit.aes = TRUE, binwidth = 0.1, show.legend = FALSE) +
+  geom_pointrange(data=p1.L.acc.g, aes(x = tType, y=Acc.m, ymin = Acc.m-Acc.ci, ymax = Acc.m+Acc.ci, color = exp),
+                  position = position_dodge(0.80), size = 1.3, show.legend = T, alpha = 1) +
+  scale_color_manual(values = c("#2C57AA","#F17402"), 
+                    labels = c("Immediate", "Consolidated")) +
+  scale_fill_manual(values = c("#2C57AA","#F17402"),
+                    labels = c("Immediate", "Consolidated")) +
+  
+  # scale_shape_manual(values = c("red", "black"), labels = c("Experimental", "Control")) +
+  coord_cartesian(ylim = c(80,105), clip = "on") +
+  # scale_y_continuous(breaks = seq(0,80)) +
+  scale_x_discrete(labels = c("Paired", "Unpaired")) +
+  labs(x = "Condition", y = "Accuracy (%)") +
+  theme_bw(base_size = 18) +
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # legend.position = c(0.65, 0.85),
+        legend.position = "top",
+        legend.title = element_blank(),
+        # aspect.ratio = 0.6,
+        legend.background = element_blank(),
+        plot.margin = margin(1, 0.3, 0.3, 0.5, "cm"),
+        legend.key = element_blank())
+
+p1.L.acc.g.plot3
+
+# fig1_3.behav <- ggarrange(p1.L.rt.g.plot3, p1.L.acc.g.plot3, nrow = 2)
+# fig1_3.behav
+
+```
+
+<br>
+  
+마지막 블록에서 공고화 여부 (Immediate & Consolidated)와 사전 경험 일치 여부 (Paired & Non-paired)를 요인으로 반응 시간에 대한 factorial ANOVA 및 post-hoc 수행하였다.
+
+<br>
+  
+```{r, collapse=TRUE}
+p1.rt.aov <- aov_ez(id="SN", dv="RT", data = p1.L.rt.l, between = "exp", within = c("tType"))
+nice(p1.rt.aov, es="pes") %>% kable(digits=3)
+
+p_h1 <- p1.L.rt.l %>% 
+  group_by(exp) %>% 
+  rstatix::pairwise_t_test(RT ~ tType, 
+                           p.adjust.method="bonferroni", 
+                           paired=T, detailed=T) %>% 
+  dplyr::select(exp, group1, group2, estimate, conf.low, conf.high, df, statistic, p.adj, p.adj.signif)
+
+p_h2 <- p1.L.rt.l %>%
+  group_by(exp) %>% 
+  rstatix::cohens_d(RT ~ tType, paired=T, ci = F) %>% 
+  dplyr::select(exp, group1, group2, effsize, magnitude)
+
+merge(p_h1, p_h2, by = c("exp", "group1", "group2")) %>%  kable(digits=3)
+
+p_h1 <- p1.L.rt.l %>% 
+  group_by(tType) %>% 
+  rstatix::t_test(RT ~ exp, 
+                  paired=F, detailed=T, var.equal = T) %>% 
+  dplyr::select(tType, group1, group2, estimate, conf.low, conf.high, df, statistic, p)
+
+p_h2 <- p1.L.rt.l %>%
+  group_by(tType) %>% 
+  rstatix::cohens_d(RT ~ exp, paired=F, ci = F) %>% 
+  dplyr::select(tType, group1, group2, effsize, magnitude)
+
+merge(p_h1, p_h2, by = c("tType", "group1", "group2")) %>%  kable(digits=3)
+```
+
+
+<br>
+
+마지막 블록에서 공고화 여부 (Immediate & Consolidated)와 사전 경험 일치 여부 (Paired & Non-paired)를 요인으로 정확도에 대한 factorial ANOVA 및 post-hoc 수행하였다.
+
+<br>
+
+```{r, collapse=TRUE}
+p1.acc.aov <- aov_ez(id="SN", dv="Acc", data = p1.L.acc.l, between = "exp", within = c("tType"))
+nice(p1.acc.aov, es="pes") %>% kable(digits=3)
+
+p_h1 <- p1.L.acc.l %>% 
+  group_by(exp) %>% 
+  rstatix::pairwise_t_test(Acc ~ tType, 
+                           p.adjust.method="bonferroni", 
+                           paired=T, detailed=T) %>% 
+  dplyr::select(exp, group1, group2, estimate, conf.low, conf.high, df, statistic, p.adj, p.adj.signif)
+
+p_h2 <- p1.L.acc.l %>%
+  group_by(exp) %>% 
+  rstatix::cohens_d(Acc ~ tType, paired=T, ci = F) %>% 
+  dplyr::select(exp, group1, group2, effsize, magnitude)
+
+merge(p_h1, p_h2, by = c("exp", "group1", "group2")) %>%  kable(digits=3)
+
+p_h1 <- p1.L.acc.l %>% 
+  group_by(tType) %>% 
+  rstatix::t_test(Acc ~ exp, 
+                  paired=F, detailed=T, var.equal = T) %>% 
+  dplyr::select(tType, group1, group2, estimate, conf.low, conf.high, df, statistic, p)
+
+p_h2 <- p1.L.acc.l %>%
+  group_by(tType) %>% 
+  rstatix::cohens_d(Acc ~ exp, paired=F, ci = F) %>% 
+  dplyr::select(tType, group1, group2, effsize, magnitude)
+
+merge(p_h1, p_h2, by = c("tType", "group1", "group2")) %>%  kable(digits=3)
+```
+
+<br>
+
+****
+
+<br>
+
+## Phase 2 - Event Memory Test
+
+<br>
+
+공고화 여부 (Immediate & Consolidated)와 사전 경험 일치 여부 (Paired & Non-paired)에 따른 Phase 2 Event Memory Test의 수행 결과를 분석하였다. 
+
+<br>
+
+```{r, collapse=TRUE}
+t2 <- read.csv("data/evMEM_p2_all.csv", header = T)
+glimpse(t2, width = 70)
+
+# check number of trials for each condition/SN
+table(t2$SN)
+table(t2$Block, t2$SN) 
+table(t2$Cont, t2$SN) 
+
+# change class of main factors: double to factor
+t2$SN = factor(t2$SN)
+t2$exp = factor(t2$exp, levels=c(1,2), labels=c("imm","cons"))
+
+t2$Block = factor(t2$Block)
+t2$Cont = factor(t2$Cont, levels=c(1,2), labels=c("paired","unpaired")) # for afex
+t2$Sch = factor(t2$Sch, levels=c(1, 2), labels=c("within", "across"))
+t2$Im_comb = t2$Im1_pos + t2$Im2_pos
+t2$Im_comb = factor(t2$Im_comb)
+t2$Im1_pos = factor(t2$Im1_pos)
+t2$Im2_pos = factor(t2$Im2_pos)
+t2$Im1_Idx = factor(t2$Im1_Idx)
+t2$Im2_Idx = factor(t2$Im2_Idx)
+t2$Ans = factor(t2$Ans)
+t2$RT <- t2$RT; t2$Corr <- as.numeric(t2$Corr==1)
+
+t2$evPos <- 0
+t2[t2$Sch=="within",]$evPos <- 1
+
+t2[t2$Im1_pos==1,]$evPos <- 1
+t2[t2$Im1_pos==2,]$evPos <- 1
+t2[t2$Im1_pos==7,]$evPos <- 2
+t2[t2$Im1_pos==8,]$evPos <- 2
+t2[t2$Im1_pos==13,]$evPos <- 3
+t2[t2$Im1_pos==14,]$evPos <- 3
+t2[t2$Im1_pos==19,]$evPos <- 4
+t2[t2$Im1_pos==20,]$evPos <- 4
+t2[t2$Im1_pos==25,]$evPos <- 5
+t2[t2$Im1_pos==26,]$evPos <- 5
+t2[t2$Im1_pos==31,]$evPos <- 6
+t2[t2$Im1_pos==32,]$evPos <- 6
+
+# t2[t2$Im1_pos==1,]$evPos <- 1
+# t2[t2$Im1_pos==2,]$evPos <- 1
+# t2[t2$Im1_pos==7,]$evPos <- 2
+# t2[t2$Im1_pos==8,]$evPos <- 2
+# t2[t2$Im1_pos==13,]$evPos <- 1
+# t2[t2$Im1_pos==14,]$evPos <- 1
+# t2[t2$Im1_pos==19,]$evPos <- 2
+# t2[t2$Im1_pos==20,]$evPos <- 2
+# t2[t2$Im1_pos==25,]$evPos <- 1
+# t2[t2$Im1_pos==26,]$evPos <- 1
+# t2[t2$Im1_pos==31,]$evPos <- 2
+# t2[t2$Im1_pos==32,]$evPos <- 2
+
+t2[t2$Sch=="across",]$evPos <- 1
+
+t2[t2$Im1_pos==1,]$evPos <- 1
+t2[t2$Im1_pos==2,]$evPos <- 1
+
+t2[t2$Im1_pos==7,]$evPos <- 1
+t2[t2$Im1_pos==8,]$evPos <- 1
+t2[t2$Im1_pos==13,]$evPos <- 2
+t2[t2$Im1_pos==14,]$evPos <- 2
+t2[t2$Im1_pos==19,]$evPos <- 2
+t2[t2$Im1_pos==20,]$evPos <- 2
+t2[t2$Im1_pos==25,]$evPos <- 3
+t2[t2$Im1_pos==26,]$evPos <- 3
+t2[t2$Im1_pos==31,]$evPos <- 3
+t2[t2$Im1_pos==32,]$evPos <- 3
+
+
+t2[t2$Im1_pos==3,]$evPos <- 1
+t2[t2$Im1_pos==4,]$evPos <- 1
+t2[t2$Im1_pos==5,]$evPos <- 1
+t2[t2$Im1_pos==6,]$evPos <- 1
+t2[t2$Im1_pos==15,]$evPos <- 2
+t2[t2$Im1_pos==16,]$evPos <- 2
+t2[t2$Im1_pos==17,]$evPos <- 2
+t2[t2$Im1_pos==18,]$evPos <- 2
+t2[t2$Im1_pos==27,]$evPos <- 3
+t2[t2$Im1_pos==28,]$evPos <- 3
+t2[t2$Im1_pos==29,]$evPos <- 3
+t2[t2$Im1_pos==30,]$evPos <- 3
+
+
+headTail(t2)
+glimpse(t2, width = 70)
+```
+
+<br>
+
+### Event Memory - Boundary Effect
+
+<br>
+
+Temporal Order Memory에서의 경계 효과(Boundary Effect)는 사건 내(Within)의 Temporal Order Memory가 Event 간(Across) 보다 더 우수한 것으로 나타난다. 공고화 여부와 일치 여부에 따른 Boundary Effect를 분석하였다.
+
+<br>
+
+```{r, collapse=TRUE}
+t2acc.sn <- t2 %>% group_by(SN, exp) %>%
+  dplyr::summarise(Acc = mean(Corr)*100) %>%
+  ungroup()
+
+ggplot() + 
+  geom_bar(data=t2acc.sn, aes(x = SN, y = Acc, fill=exp), stat="identity") + 
+  # ggtitle("참가자별 평균 반응시간") +
+  xlab("Subjects") + ylab("Accuracy") + theme_bw() +
+  coord_cartesian(ylim = c(50,100), clip = "on") +
+  scale_fill_manual(values = c("#2C57AA", "#F17402"), # c("#F17402", "#2C57AA"), c("#feb24c", "#91bfdb")
+                    labels = c("Immediate","Consolidated")) +  
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # legend.position = c(0.65, 0.85),
+        legend.position = 'top',
+        legend.title = element_blank(),
+        # aspect.ratio = 0.6,
+        legend.background = element_blank(),
+        plot.margin = margin(1, 0.3, 0.3, 0.5, "cm"),
+        legend.key = element_blank())
+
+t2accL <- t2 %>% group_by(SN, exp, Cont, Sch) %>%
+  dplyr::summarise(Acc = mean(Corr)*100) %>%
+  ungroup()
+# t2accL %>% kable(digits=2)
+
+# subject-level, wide format (SN/Btw/Block)
+t2accW1 <- t2accL %>% spread(key=Cont, value = Acc)
+# t2accW1 %>% kable(digits=2)
+
+t2accW2 <- t2accL %>% spread(key=Sch, value = Acc)
+# t2accW2 %>% kable(digits=2)
+
+# summary table: grand mean (eyerep/locrep)
+t2accG <- t2accL %>% group_by(exp, Cont, Sch) %>%
+  summarise(Acc.m = mean(Acc), Acc.sd = sd(Acc)) %>%
+  ungroup()
+t2accG$Acc.se <- Rmisc::summarySEwithin(data = t2accL, measurevar = "Acc", 
+                                        idvar = "SN", betweenvars = "exp", withinvars = c("Cont", "Sch"))$se
+t2accG$Acc.ci <- Rmisc::summarySEwithin(data = t2accL, measurevar = "Acc", 
+                                        idvar = "SN", betweenvars = "exp", withinvars = c("Cont", "Sch"))$ci
+t2accG <- t2accG %>% 
+  mutate(lower.ci = Acc.m-Acc.ci,
+         upper.ci = Acc.m+Acc.ci,
+         lower.se = Acc.m-Acc.se,
+         upper.se = Acc.m+Acc.se)
+# for between-subject design. check help(summarySE)
+t2accG %>% dplyr::select(exp, Cont, Sch, Acc.m) %>% 
+  spread(key=Sch, value=Acc.m) %>% 
+  kable(digits=2)
+```
+  
+<br>
+
+그래프
+
+<br>
+
+```{r, fig.width= 14, fig.height = 6}
+
+t2.plot1 <- ggplot(data=t2accL, aes(x=Cont, y=Acc, fill=Sch)) +
+  stat_summary(fun = mean, geom = "bar", position="dodge", na.rm = TRUE, alpha = .9, 
+               width = 0.8, size = 0.2, color="black") + # , show.legend = FALSE, colour="black", 
+  geom_point(data=t2accL, aes(x=Cont, y=Acc, fill=Sch), 
+             position=position_dodge(width = 0.8), 
+             size=2, show.legend = FALSE, color="gray90", alpha = .9) + # , 
+  geom_segment(data=filter(t2accW2, Cont == "paired"), inherit.aes = FALSE,
+               aes(x=0.8, y=filter(t2accW2, Cont == "paired")$`within`,
+                   xend=1.2, yend=filter(t2accW2, Cont == "paired")$across),
+               color="gray90", alpha = .9) +
+  geom_segment(data=filter(t2accW2, Cont == "unpaired"), inherit.aes = FALSE,
+               aes(x=1.8, y=filter(t2accW2, Cont =="unpaired")$`within`,
+                   xend=2.2, yend=filter(t2accW2, Cont =="unpaired")$across),
+               color="gray90", alpha = .9) +
+  geom_errorbar(data=t2accG, aes(y = Acc.m, ymin = lower.ci, ymax = upper.ci), width=.2,
+                position=position_dodge(.8), color = "black") +
+  facet_grid(.~exp, scales="free_x", space = "free",
+             labeller = labeller(exp = c("imm" = "Immediate","cons" = "Consolidated"))) +
+  
+  scale_x_discrete(labels=c("Paired","Non-paired")) +
+  scale_fill_manual(values = c("#feb24c", "#91bfdb"),
+                    labels = c("Within", "Across")) +
+  coord_cartesian(ylim = c(0, 120), clip = "on") +
+  scale_y_continuous(breaks = c(0,25,50,75,100)) +
+  labs(x = "Context Condition", y = "Recency Accuracy (%)", fill ="Boundary Condition") +
+  # ggtitle("Association Memory Accuracy") +
+  theme_bw(base_size = 15) +
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # aspect.ratio = 0.2,
+        plot.margin = margin(0.3, 0.3, 0.3, 0.3, "cm"), 
+        # plot.title = element_text(hjust = 0.5),
+        legend.position="top")
+t2.plot1
+
+
+# across 조건별
+t2.plot2 <- ggplot(data=t2accL, aes(x=Sch, y=Acc, fill=Cont)) +
+  stat_summary(fun = mean, geom = "bar", position="dodge", na.rm = TRUE, alpha = .9, 
+               width = 0.8, size = 0.2, color="black") + # , show.legend = FALSE, colour="black", 
+  
+  geom_point(data=t2accL, position=position_dodge(0.80), color="gray90", alpha = .9, 
+             size=2, show.legend = FALSE) +
+
+  geom_segment(data=filter(t2accW1, Sch == "within"), inherit.aes = FALSE,
+               aes(x=0.8, y=filter(t2accW1, Sch == "within")$paired,
+                   xend=1.2, yend=filter(t2accW1, Sch == "within")$unpaired),
+               color="gray90", alpha = .9) +
+  geom_segment(data=filter(t2accW1, Sch == "across"), inherit.aes = FALSE,
+               aes(x=1.8, y=filter(t2accW1, Sch == "across")$paired,
+                   xend=2.2, yend=filter(t2accW1, Sch == "across")$unpaired),
+               color="gray90", alpha = .9) +  
+  geom_errorbar(data=t2accG, aes(y = Acc.m, ymin = lower.ci, ymax = upper.ci), width=.2,
+                position=position_dodge(.8), color = "black") +
+
+  facet_grid(.~exp, scales="free_x", space = "free",
+             labeller = labeller(exp = c("imm" = "Immediate","cons" = "Consolidated"))) +
+  scale_x_discrete(labels=c("Within", "Across")) +
+  scale_fill_manual(values = c("#ED7D31", "#70AD47"),
+                    labels = c("Paired", "Non-paired")) +
+  # scale_fill_manual(values = c("#D2E6BD", "#4AA7B4"),  # , "#235796"
+  #                   labels = c("Paired", "Non-paired")) +
+  coord_cartesian(ylim = c(0, 140), clip = "on") +
+  scale_y_continuous(breaks = c(0,25,50,75,100)) +
+  labs(x = "Boundary Condition", y = "Recency Accuracy (%)", fill ="Context Condition") +
+  # ggtitle("Association Memory Accuracy") +
+  theme_bw(base_size = 15) +
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # aspect.ratio = 0.2,
+        plot.margin = margin(0.3, 0.3, 0.3, 0.3, "cm"), 
+        # plot.title = element_text(hjust = 0.5),
+        legend.position="top")
+t2.plot2
+
+t2.plot3 <- ggplot(data=t2accL, aes(x=Cont, y=Acc, fill=exp)) +
+  geom_violin(data= t2accL, aes(x = Cont, y=Acc, fill = exp), width = 0.7, trim=TRUE, 
+              position = position_dodge(0.80), alpha = 0.15) +
+  # stat_summary(fun = mean, geom = "bar", position="dodge", na.rm = TRUE, alpha = .9, 
+  #              width = 0.8, size = 0.2, color="black") + # , show.legend = FALSE, colour="black", 
+  geom_dotplot(data=t2accL, aes(x=Cont, y=Acc, fill=exp),
+               binaxis = "y", stackdir = "center", stackratio = 1.2,
+               color = "black", alpha = 0.5, #position = "nudge",
+               position=position_dodge(0.8),
+               inherit.aes = TRUE, binwidth = 1.2) + 
+  geom_point(data=t2accG, aes(y = Acc.m, x = Cont, color=exp), 
+             position=position_dodge(.8),
+             size = 4, show.legend = F) + 
+  geom_errorbar(data=t2accG, aes(y = Acc.m, ymin = lower.ci, ymax = upper.ci), width=.2,
+                position=position_dodge(.8), color = "black") +
+  facet_grid(.~Sch, scales="free_x", space = "free") +
+  scale_x_discrete(labels=c("Within", "Across")) +
+  scale_fill_manual(values = c("#2C57AA","#F17402"), 
+                    labels = c("Immediate", "Consolidated")) +
+  scale_color_manual(values = c("#2C57AA","#F17402"), 
+                    labels = c("Immediate", "Consolidated")) +
+  # scale_fill_manual(values = c("#D2E6BD", "#4AA7B4"),  # , "#235796"
+  #                   labels = c("Paired", "Non-paired")) +
+  coord_cartesian(ylim = c(0, 120), clip = "on") +
+  scale_y_continuous(breaks = c(0,25,50,75,100)) +
+  labs(x = "Boundary Condition", y = "Recency Accuracy (%)", fill ="Context Condition") +
+  # ggtitle("Association Memory Accuracy") +
+  theme_bw(base_size = 15) +
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # aspect.ratio = 0.2,
+        plot.margin = margin(0.3, 0.3, 0.3, 0.3, "cm"), 
+        # plot.title = element_text(hjust = 0.5),
+        legend.position="top")
+t2.plot3
+
+```
+
+<br>
+
+#### Factorial ANOVA
+
+<br>
+
+공고화 여부 x 일치 여부 x 경계 조건에 따른 Factorial ANOVA 및 Post-hoc 수행
+
+<br>
+
+
+```{r, collapse=TRUE}
+t2.acc.aov1 <- aov_ez(id="SN", dv = "Acc", data = t2accL, between = "exp",within = c("Cont","Sch"))
+# test_sphericity(t2.acc.aov1)
+nice(t2.acc.aov1, es="pes")
+
+p_h1 <- t2accL %>% 
+  group_by(exp, Cont) %>% 
+  rstatix::pairwise_t_test(Acc ~ Sch, 
+                           p.adjust.method="bonferroni", 
+                           paired=T, detailed=T) %>% 
+  dplyr::select(exp, Cont, group1, group2, estimate, conf.low, conf.high, df, statistic, p.adj, p.adj.signif)
+
+p_h2 <- t2accL %>% 
+  group_by(exp, Cont) %>% 
+  rstatix::cohens_d(Acc ~ Sch, paired=T, ci = F) %>% 
+  dplyr::select(exp, Cont, group1, group2, effsize, magnitude)
+merge(p_h1, p_h2, by = c("exp", "Cont", "group1", "group2")) %>%  kable(digits=3)
+
+p_h1 <- t2accL %>% 
+  group_by(exp, Sch) %>% 
+  rstatix::pairwise_t_test(Acc ~ Cont, 
+                           p.adjust.method="bonferroni", 
+                           paired=T, detailed=T) %>% 
+  dplyr::select(exp, Sch, group1, group2, estimate, conf.low, conf.high, df, statistic, p.adj, p.adj.signif)
+
+p_h2 <- t2accL %>% 
+  group_by(exp, Sch) %>% 
+  rstatix::cohens_d(Acc ~ Cont, paired=T, ci = F) %>% 
+  dplyr::select(exp, Sch, group1, group2, effsize, magnitude)
+merge(p_h1, p_h2, by = c("exp", "Sch", "group1", "group2")) %>%  kable(digits=3)
+
+p_h1 <- t2accL %>% 
+  group_by(Cont, Sch) %>% 
+  rstatix::t_test(Acc ~ exp, 
+                  paired=F, detailed=T, var.equal = T) %>% 
+  dplyr::select(Cont, Sch, group1, group2, estimate, conf.low, conf.high, df, statistic, p)
+p_h2 <- t2accL %>% 
+  group_by(Cont, Sch) %>% 
+  rstatix::cohens_d(Acc ~ exp, paired=F, ci = F) %>% 
+  dplyr::select(Cont, Sch, group1, group2, effsize, magnitude)
+merge(p_h1, p_h2, by = c("Cont", "Sch", "group1", "group2")) %>%  kable(digits=3)
+```
+
+<br>
+
+#### GLMM
+
+<br>
+
+```{r, collapse=TRUE}
+### GLMM - afex
+(nc <- detectCores())
+cl <- makeCluster(rep("localhost", nc))
+# t2.acc.glmixed <- afex::mixed(Corr ~ Cont*Sch*exp + (Cont*Sch|SN) + (Cont*Sch|Im_comb),
+t2.acc.glmixed <- afex::mixed(Corr ~ Cont*Sch*exp + (1|SN) + (1|Im_comb) + (1|evPos),
+                             data = t2,
+                             family = binomial(link="logit"),
+                             method = "LRT", cl = cl,
+                             expand_re = T,
+                             control = lmerControl(optimizer = "bobyqa",
+                                                   optCtrl = list(maxfun = 1e7)))
+
+# nested model을 비교하는 method (Singmann, & Kellen, 2017)
+# 1) Kenward-Roger approximation : method ="KR"
+# 2) Satterthwaite approximation : method = "S"
+# 3) Likelihood Ratio Test : method = "LRT"
+# 4) Parametric bootstrapping : method = "PB"
+stopCluster(cl)
+
+summary(t2.acc.glmixed)
+anova(t2.acc.glmixed)
+
+### GLMM - post-hoc
+t2.acc.m1 <- emmeans(t2.acc.glmixed, pairwise ~ Sch | Cont + exp, type = "response") # adjust="bon" , "tukey"
+summary(t2.acc.m1$contrasts) %>% kable(digits=2)
+
+t2.acc.m2 <- emmeans(t2.acc.glmixed, pairwise ~ Cont | Sch + exp, type = "response") # adjust="bon" , "tukey"
+summary(t2.acc.m2$contrasts) %>% kable(digits=2)
+
+t2.acc.m3 <- emmeans(t2.acc.glmixed, pairwise ~ exp | Sch + Cont, type = "response") # adjust="bon" , "tukey"
+summary(t2.acc.m3$contrasts) %>% kable(digits=2)
+```
+
+<br>
+
+### Event Memory - Event Integration
+
+<br>
+
+Within과 Across 간의 차이를 통해 Event Integration 지표를 구성하였다. 이 값이 높을 수록 사전 예측과의 일치 여부에 따라 Event Memory 가 통합되었다는 것으로 해석될 수 있다.
+
+<br>
+
+```{r, collapse=TRUE}
+## evIdx- Integration Score
+t2accL.sch <- t2 %>% filter(Sch=='across') %>% group_by(SN, exp, Cont) %>% 
+  dplyr::summarise(acc.sch = mean(Corr)*100) %>% 
+  ungroup()
+t2accL.nsch <- t2 %>% filter(Sch=='within') %>% group_by(SN, exp, Cont) %>% 
+  dplyr::summarise(acc.nsch = mean(Corr)*100) %>% 
+  ungroup()
+
+# subject-level, long format
+t2accL.is <- merge(t2accL.sch, t2accL.nsch, key=c(SN,exp, Cont))
+t2accL.is <- t2accL.is %>% group_by(SN, exp, Cont) %>% 
+  dplyr::summarise(IS = (acc.nsch - acc.sch)) %>% ungroup()
+  # dplyr::summarise(IS = abs(acc.nsch - acc.sch)) %>% ungroup()
+# t2accL.is %>% kable(digits=2)
+
+# subject-level, wide format (SN/Btw/Block)
+t2accW.is <- t2accL.is %>% spread(key=Cont, value = IS)
+# t2accW.is %>% kable(digits=2)
+
+# summary table: grand mean (eyerep/locrep)
+t2accG.is <- t2accL.is %>% group_by(exp, Cont) %>%
+  summarise(IS.m = mean(IS), IS.sd = sd(IS)) %>%
+  ungroup()
+t2accG.is$IS.se <- Rmisc::summarySEwithin(data = t2accL.is, measurevar = "IS", 
+                                          idvar = "SN", betweenvars = "exp",withinvars = c("Cont"))$se
+t2accG.is$IS.ci <- Rmisc::summarySEwithin(data = t2accL.is, measurevar = "IS", 
+                                          idvar = "SN", betweenvars = "exp",withinvars = c("Cont"))$ci
+t2accG.is <- t2accG.is %>% 
+  mutate(lower.ci = IS.m-IS.ci,
+         upper.ci = IS.m+IS.ci,
+         lower.se = IS.m-IS.se,
+         upper.se = IS.m+IS.se)
+# for between-subject design. check help(summarySE)
+t2accG.is %>% dplyr::select(exp, Cont, IS.m) %>% 
+  spread(key=Cont, value=IS.m) %>% kable(digits=2)
+```
+
+
+<br>
+
+```{r, fig.width= 14, fig.height = 6}
+t2.plot4 <- ggplot(data=t2accL.is, aes(x=Cont, y=IS, fill=Cont)) +
+  stat_summary(fun = mean, geom = "bar", position="dodge", na.rm = TRUE, alpha = 0.9,
+               width = 0.8, show.legend = FALSE, color = "black", size = 0.2) +
+  geom_hline(yintercept=0, linetype='solid', color='black', size=0.5) +
+  geom_segment(data=filter(t2accW.is), inherit.aes = FALSE,
+               aes(x=1, y=filter(t2accW.is)$paired,
+                   xend=2, yend=filter(t2accW.is)$unpaired),
+               color="gray80", alpha =.9) +
+  geom_point(data=t2accL.is, position=position_dodge(0.80), color="gray80", alpha =.9,
+             size=2, show.legend = FALSE) +
+  geom_errorbar(data=t2accG.is, aes(y=IS.m, ymin = IS.m-IS.ci, ymax = IS.m+IS.ci), width=.2,
+                position=position_dodge(.8), color = "black") +
+  facet_grid(.~exp, scales="free_x", space = "free",
+             labeller = labeller(exp = c("imm" = "Immediate","cons" = "Consolidated"))) +
+  scale_x_discrete(labels=c("Paired", "Non-paired")) +
+  scale_fill_manual(values = c("#D2E6BD", "#4AA7B4")) + # , "#235796"
+  coord_cartesian(ylim = c(-20, 50), clip = "on") +
+  scale_y_continuous(breaks = c(-20, -10, 0, 10,20,30,40,50)) +
+  labs(x = "", y = "Segementation Index\n(Within - Across)") +
+  # ggtitle("Association Memory Accuracy") +
+  theme_bw(base_size = 15) +
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # aspect.ratio = 0.2,
+        plot.margin = margin(0.3, 0.3, 0.3, 0.3, "cm"), 
+        # plot.title = element_text(hjust = 0.5),
+        legend.position=c(0.8, 0.85))
+t2.plot4
+
+
+t2.plot5<- ggplot(data=t2accL.is, aes(x=exp, y=IS, fill=exp)) +
+  geom_violin(data= t2accL.is, aes(x=exp, y=IS, fill=exp), width = 0.7, trim=TRUE, 
+              position = position_dodge(0.80), alpha = 0.15, show.legend = F) +
+  # stat_summary(fun = mean, geom = "bar", position="dodge", na.rm = TRUE, alpha = 0.9, 
+  #              width = 0.8, show.legend = FALSE, color = "black", size = 0.2) +
+  geom_hline(yintercept=0, linetype='solid', color='black', size=0.5) +
+  geom_dotplot(data=t2accL.is, aes(x=exp, y=IS, fill=exp),
+               binaxis = "y", stackdir = "center", stackratio = 1.2,
+               color = "black", alpha = 0.5, #position = "nudge",
+               position=position_dodge(0.8),
+               inherit.aes = TRUE, binwidth = 1.2,  show.legend = FALSE) + 
+  geom_point(data=t2accG.is, aes(y = IS.m, x = exp, color=exp), 
+             position=position_dodge(.8),
+             size = 4, show.legend = F) + 
+  geom_errorbar(data=t2accG.is, aes(y=IS.m, ymin = IS.m-IS.ci, ymax = IS.m+IS.ci), width=.2,
+                position=position_dodge(.8), color = "black") +
+  facet_grid(.~Cont, scales="free_x", space = "free") +
+  scale_x_discrete(labels=c("Immediate", "Consolidated")) +
+  scale_fill_manual(values = c("#2C57AA","#F17402")) +
+  scale_color_manual(values = c("#2C57AA","#F17402")) +
+  coord_cartesian(ylim = c(-20, 50), clip = "on") +
+  scale_y_continuous(breaks = c(-20, -10, 0, 10,20,30,40,50)) +
+  labs(x = "", y = "Segementation Index\n(Within - Across)") +
+  # ggtitle("Association Memory Accuracy") +
+  theme_bw(base_size = 15) +
+  theme(axis.title = element_text(face = "bold", size = 16, color = "black"),
+        axis.text = element_text(face = "plain", hjust = 0.5, size = 15, color = "black"),
+        axis.line=element_line(),
+        strip.text.x = element_text(face = "plain", size = 15, color = "black"),
+        strip.background = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_blank(),
+        panel.spacing=unit(1, "lines"),
+        # aspect.ratio = 0.2,
+        plot.margin = margin(0.3, 0.3, 0.3, 0.3, "cm"), 
+        # plot.title = element_text(hjust = 0.5),
+        legend.position=c(0.8, 0.85))
+t2.plot5
+```
+
+<br>
+
+#### Factorial ANOVA
+
+<br>
+
+공고화 여부 x 일치 여부에 따른 Factorial ANOVA 및 Post-hoc 수행하였다.
+
+<br>
+
+
+```{r, collapse=TRUE}
+t2.acc.aov2 <- aov_ez(id="SN", dv = "IS", data = t2accL.is, between = "exp",within = c("Cont"))
+# test_sphericity(t2.acc.aov1)
+nice(t2.acc.aov2, es="pes")
+
+p_h1 <- t2accL.is %>% 
+  group_by(exp) %>% 
+  rstatix::pairwise_t_test(IS ~ Cont, 
+                           p.adjust.method="bonferroni", 
+                           paired=T, detailed=T) %>% 
+  dplyr::select(exp, group1, group2, estimate, conf.low, conf.high, df, statistic, p.adj, p.adj.signif)
+
+p_h2 <- t2accL.is %>% 
+  group_by(exp) %>% 
+  rstatix::cohens_d(IS ~ Cont, paired=T, ci = F) %>% 
+  dplyr::select(exp,  group1, group2, effsize, magnitude)
+merge(p_h1, p_h2, by = c("exp", "group1", "group2")) %>%  kable(digits=3)
+
+p_h1 <- t2accL.is %>% 
+  group_by(Cont) %>% 
+  rstatix::t_test(IS ~ exp, 
+                  paired=F, detailed=T, var.equal = T) %>% 
+  dplyr::select(Cont, group1, group2, estimate, conf.low, conf.high, df, statistic, p)
+p_h2 <- t2accL.is %>% 
+  group_by(Cont) %>% 
+  rstatix::cohens_d(IS ~ exp, paired=F, ci = F) %>% 
+  dplyr::select(Cont, group1, group2, effsize, magnitude)
+merge(p_h1, p_h2, by = c("Cont", "group1", "group2")) %>%  kable(digits=3)
+```
+
+<br>
+
+#### GLMM
+
+<br>
+
+```{r, collapse=TRUE}
+
+t2accL.sch <- t2 %>% filter(Sch=='across') %>% group_by(SN, exp, Cont, evPos) %>% 
+  dplyr::summarise(acc.sch = mean(Corr)*100) %>% 
+  ungroup()
+t2accL.nsch <- t2 %>% filter(Sch=='within') %>% group_by(SN, exp, Cont, evPos) %>% 
+  dplyr::summarise(acc.nsch = mean(Corr)*100) %>% 
+  ungroup()
+
+# subject-level, long format
+t2accL.is <- merge(t2accL.sch, t2accL.nsch, key=c(SN, exp, Cont, evPos))
+t2accL.is <- t2accL.is %>% group_by(SN, exp, Cont, evPos) %>% 
+  dplyr::summarise(IS = (acc.nsch - acc.sch)) %>% ungroup()
+  # dplyr::summarise(IS = abs(acc.nsch - acc.sch)) %>% ungroup()
+# t2accL.is %>% kable(digits=2)
+
+```
+
+<br>
+
+```{r, collapse=TRUE}
+### GLMM - afex
+(nc <- detectCores())
+cl <- makeCluster(rep("localhost", nc))
+# t2.acc.glmixed <- afex::mixed(Corr ~ Cont*Sch*exp + (Cont*Sch|SN) + (Cont*Sch|Im_comb),
+t2.acc.lmixed <- afex::mixed(IS ~ Cont*exp + (1|SN) + (1|evPos),
+                             data = t2accL.is,
+                             method = "LRT", cl = cl,
+                             expand_re = T,
+                             control = lmerControl(optimizer = "bobyqa",
+                                                   optCtrl = list(maxfun = 1e7)))
+
+# nested model을 비교하는 method (Singmann, & Kellen, 2017)
+# 1) Kenward-Roger approximation : method ="KR"
+# 2) Satterthwaite approximation : method = "S"
+# 3) Likelihood Ratio Test : method = "LRT"
+# 4) Parametric bootstrapping : method = "PB"
+stopCluster(cl)
+
+summary(t2.acc.lmixed)
+anova(t2.acc.lmixed)
+
+### GLMM - post-hoc
+t2.acc.m1 <- emmeans(t2.acc.lmixed, pairwise ~ Cont | exp, type = "response") # adjust="bon" , "tukey"
+summary(t2.acc.m1$contrasts) %>% kable(digits=2)
+
+
+t2.acc.m1 <- emmeans(t2.acc.lmixed, pairwise ~ exp | Cont, type = "response") # adjust="bon" , "tukey"
+summary(t2.acc.m1$contrasts) %>% kable(digits=2)
+```
+
+<br>
+
+***
+
+<br>
+
+# Session Info
+
+<br>
+
+```{r, collapse=TRUE}
+sessionInfo()
+```
+
+
+
